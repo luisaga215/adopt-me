@@ -1,0 +1,18 @@
+.bg-light {
+  background-color: #EF3E42 !important; }
+  .bg-light .navbar-brand, .bg-light .navbar-brand:hover {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+    color: white !important; }
+  .bg-light .nav-item .nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: white !important;
+    box-sizing: border-box;
+    padding-left: .3em;
+    padding-right: .3em;
+    transition: text-shadow .5s; }
+  .bg-light .nav-item .nav-link:hover {
+    text-shadow: 0 0 20px white; }
