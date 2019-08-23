@@ -103,7 +103,7 @@ button {
 
 .row1{
   margin-top: 1.5em;
-  margin-left: 3.5em;
+  margin-left: 5.5em;
   margin-bottom: 2.2em;
 }
 .col1_r1{
@@ -163,7 +163,7 @@ button {
 
 /*PROGRAMS and ASSOCIATED COMPANIES */
 .row2{
-  margin-left: 3.5em;
+  margin-left: 5.5em;
   margin-right: 3.5em;
   margin-bottom: 2em;
   ul{
@@ -414,6 +414,10 @@ button {
   .col_adoptdog{
     height: 0;
   }
+  .img_programs{
+    max-height: 100%;
+    object-fit: contain;
+  }
   #footer{
       height: 330px;
       .footer_1{
@@ -434,6 +438,7 @@ button {
   .row1{
     height: 460px;
     margin-bottom: 0;
+    margin-left: 4em;
   }
   .row1_1, .row1_4{
     height: 54px;
@@ -448,6 +453,7 @@ button {
   .row2{
     height: 550px;
     margin-top: 2em;
+    margin-left: 4em;
   }
 
   .row_programs{
@@ -455,6 +461,10 @@ button {
   }
   .row_programs2{
     margin-top: 7em;
+  }
+  .img_programs{
+    max-height: 100%;
+    object-fit: contain;
   }
   #footer{
       height: 330px;
@@ -475,6 +485,7 @@ button {
   }
   .row1{
     height: 500px;
+    margin-left: 4.5em;
   }
   .row1_1, .row1_4{
     height: 60px;
@@ -488,6 +499,7 @@ button {
   }
   .row2{
     height: 520px;
+    margin-left: 4.5em;
   }
   .row_programs{
     height: 150px;
