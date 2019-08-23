@@ -9,6 +9,6 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
-var server = app.listen(8081, function() {
+var server = app.listen(3000, function() {
   console.log("Server in port 8081");
 });

@@ -48,6 +48,43 @@ body{
   }
 }
 
+/*Main image*/
+.dogs{
+  background-image: url('/dogs.jpg');
+  background-size: 110% 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img_dogs{
+  position: relative;
+}
+.new_family{
+  height: 150px;
+  width: 100%;
+  background-color: black;
+  background: rgba(0, 0, 0, .3);
+  position: absolute;
+  bottom: 0;
+  padding-left: 5em;
+}
+.title_new_fam{
+  font-family: $font-family-secondary;
+  font-size: $font-size-1em*3;
+  font-weight: $font-weight-h1;
+  color: $color-red;
+}
+#button5{
+  background-color: transparent;
+  border-color: $color-red;
+  color: $color-red;
+  padding-left: 1em;
+  padding-right: 1em;
+  transition: color .8s, background-color .8s;
+}
+#button5:hover{
+  background-color: $color-red;
+  color: white;
+}
 /*VOLUNTEERS and TESTIMONIAL*/
 
 //All buttons
@@ -316,8 +353,15 @@ button {
          margin-left: 1em;
        }
    }
+   .new_family{
+     height: 100px;
+     padding-left: 3em;
+   }
+   .title_new_fam{
+     font-size: $font-size-1em*2;
+   }
 }
-@media (min-width: 576px) and (max-width:768px) {
+@media (min-width: 576px) and (max-width:767px) {
   .img_dogs{
     object-fit: cover;
     width: 100%;
@@ -375,7 +419,7 @@ button {
       }
   }
 }
-@media (min-width: 768px) and (max-width:992px) {
+@media (min-width: 767px) and (max-width:992px) {
   .img_dogs{
     object-fit: cover;
     width: 100%;
@@ -477,6 +521,12 @@ button {
   }
   .row_programs2{
     margin-top: 2.5em;
+  }
+  .new_family{
+    height: 170px;
+  }
+  .title_new_fam{
+    font-size: $font-size-1em*3.5;
   }
 }
 .row1_4{
