@@ -23,7 +23,7 @@ $font-size-2em: 2em;
 body{
   overflow-x: hidden;
 }
-
+/*NAVBAR*/
 .bg-light{
   background-color: $color-red!important;
   .navbar-brand,.navbar-brand:hover{
@@ -215,22 +215,39 @@ button {
 #footer{
   height: 280px;
   background-color: $color-blue;
-  a{
-    color: white;
-    font-family: $font-family-primary;
-    font-size: $font-size-1em;
-    font-weight: $font-weight-h2;
-    text-align: center;
-    padding: auto;
-    text-decoration: none;
-    transition: text-shadow .5s;
-
-  }
-  a:hover{
-    text-shadow: 0 0 20px white;
+  .footer_1{
+    padding-left: 5em;
+    a{
+      color: white;
+      font-family: $font-family-secondary;
+      font-size: $font-size-1em*2;
+      font-weight: $font-weight-h1;
+      text-align: left;
+      text-decoration: none;
+      margin-top: 1em;
+    }
+    .f_dir{
+      color: white;
+      font-family: $font-family-secondary;
+      font-size: $font-size-1em*.8;
+      font-weight: $font-weight-h1;
+      text-align: left;
+    }
   }
   .footer_2{
     margin-top: 5em;
+    a{
+      color: white;
+      font-family: $font-family-primary;
+      font-size: $font-size-1em;
+      font-weight: $font-weight-h2;
+      text-align: center;
+      text-decoration: none;
+      transition: text-shadow .5s;
+    }
+    a:hover{
+      text-shadow: 0 0 20px white;
+    }
   }
 }
 
@@ -289,6 +306,16 @@ button {
      max-height: 100%;
      object-fit: contain;
    }
+   #footer{
+       height: 360px;
+       .footer_1{
+         padding-left: .5em;
+       }
+       .footer_2{
+         padding-top: 2.2em;
+         margin-left: 1em;
+       }
+   }
 }
 @media (min-width: 576px) and (max-width:768px) {
   .img_dogs{
@@ -329,13 +356,23 @@ button {
     height: 100px;
   }
   .row_programs2{
-    margin-top: 6em;
+    margin-top: 7em;
   }
   .img_adoptdog{
     display: none;
   }
   .col_adoptdog{
     height: 0;
+  }
+  #footer{
+      height: 330px;
+      .footer_1{
+        padding-left: 1em;
+      }
+      .footer_2{
+        padding-top: 2.2em;
+        margin-left: 2em;
+      }
   }
 }
 @media (min-width: 768px) and (max-width:992px) {
@@ -346,6 +383,7 @@ button {
   }
   .row1{
     height: 460px;
+    margin-bottom: 0;
   }
   .row1_1, .row1_4{
     height: 54px;
@@ -356,13 +394,24 @@ button {
   }
   .row2{
     height: 550px;
+    margin-top: 2em;
   }
 
   .row_programs{
     height: 135px;
   }
   .row_programs2{
-    margin-top: 6em;
+    margin-top: 7em;
+  }
+  #footer{
+      height: 330px;
+      .footer_1{
+        padding-left: 1.5em;
+      }
+      .footer_2{
+        padding-top: 2.2em;
+        margin-left: 4em;
+      }
   }
 }
 @media (min-width: 992px) and (max-width:1200px) {
@@ -392,6 +441,16 @@ button {
   }
   .row_programs2{
     margin-top: 5em;
+  }
+  #footer{
+      height: 330px;
+      .footer_1{
+        padding-left: 1.5em;
+      }
+      .footer_2{
+        padding-top: 2.2em;
+        margin-left: 3em;
+      }
   }
 }
 @media (min-width: 1200px) {
