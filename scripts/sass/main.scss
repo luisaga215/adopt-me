@@ -300,7 +300,7 @@ button {
     margin-left: .5em;
     margin-right: .5em;
     margin-bottom: 1em;
-    height: 420px;
+    height: 440px;
   }
   .col1_r1{
     margin-right: 0;
@@ -327,12 +327,13 @@ button {
   }
   .row_programs{
     height: 180px;
+    margin-top: 1em;
   }
   .p_text2{
     padding-right: 0;
   }
    .row_programs2{
-     margin-top: 6em;
+     margin-top: 5.6em;
    }
    .img_adoptdog{
     display:none;
@@ -386,6 +387,9 @@ button {
     height: 40px;
     background-color: $color-blue;
   }
+  #button1{
+    margin-top: 1.2em;
+  }
   .img_testimonial{
     height: 370px;
   }
@@ -421,7 +425,7 @@ button {
       }
   }
 }
-@media (min-width: 767px) and (max-width:992px) {
+@media (min-width: 768px) and (max-width:992px) {
   .img_dogs{
     object-fit: cover;
     width: 100%;
@@ -434,6 +438,9 @@ button {
   .row1_1, .row1_4{
     height: 54px;
     background-color: $color-blue;
+  }
+  #button1{
+    margin-top: 1em;
   }
   .img_testimonial{
     height: 406px;
