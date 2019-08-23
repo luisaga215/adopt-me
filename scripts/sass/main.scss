@@ -253,6 +253,7 @@ button {
 #footer{
   height: 280px;
   background-color: $color-blue;
+  border-top: 5px solid $color-red;
   .footer_1{
     padding-left: 5em;
     a{

@@ -206,7 +206,8 @@ button {
 /*FOOTER*/
 #footer {
   height: 280px;
-  background-color: #332982; }
+  background-color: #332982;
+  border-top: 5px solid #EF3E42; }
   #footer .footer_1 {
     padding-left: 5em; }
     #footer .footer_1 a {
