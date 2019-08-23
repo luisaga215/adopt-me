@@ -6,5 +6,3 @@
   <li>Run the npm install in the package.json location. </li>
   <li>Run the index.js using "node index.js". </li>
   <li>Open port 3000 --> localhost:3000 </li>
-
-Thanks!
