@@ -10,5 +10,5 @@ app.get('/', function(req, res) {
 });
 
 var server = app.listen(3000, function() {
-  console.log("Server in port 8081");
+  console.log("Server in port 3000");
 });

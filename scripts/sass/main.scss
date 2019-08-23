@@ -66,6 +66,7 @@ body{
   position: absolute;
   bottom: 0;
   padding-left: 5em;
+  padding-top: .5em;
 }
 .title_new_fam{
   font-family: $font-family-secondary;
@@ -356,6 +357,7 @@ button {
    .new_family{
      height: 100px;
      padding-left: 3em;
+       padding-top: 0;
    }
    .title_new_fam{
      font-size: $font-size-1em*2;
