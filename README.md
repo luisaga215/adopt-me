@@ -7,4 +7,4 @@
   <li>Run the index.js using "node index.js". </li>
   <li>Open port 3000 --> localhost:3000 </li>
 
-![adopt-me\assets\Adopt-me-org.png]()
+<img src="./assets/\Adopt-me-org.png" alt="adoptme"/>
